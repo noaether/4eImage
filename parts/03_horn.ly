@@ -29,6 +29,10 @@ hornF = \relative c' {
   \key ees \major
   g2.\!\mf^"metallic"( f4 e2.) g4(\> d1)\mp
 
+  r4 g8(\< aes8 g8 f8 ees8 f8)
+  \key f \major
+  a2.\mf
+
 }
 
 hornFPart = \new Staff \with {
