@@ -47,7 +47,7 @@ clarinetPart = \new Staff \with {
 }
   \score {
     <<
-      \transpose bes' c \clarinetPart
+      \transpose bes, c \clarinetPart
     >>
     \layout {
       indent = 25
