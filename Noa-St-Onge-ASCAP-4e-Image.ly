@@ -32,6 +32,7 @@ clarinet = \relative c'' {
   % Music follows here.
   
   \repeat unfold 8 {r1}
+  \mark \default
   a2.\p^"solo espressivo"( g4 g2 f2)
   a2.( g4 g2 f2)
   a2.( g4 g2 f2) 
@@ -100,6 +101,7 @@ euphoniumPart = \new Staff \with {
 } { \clef bass \euphonium }
 
 \score {
+  \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
   <<
     \flutePart
     \transpose c c \clarinetPart
