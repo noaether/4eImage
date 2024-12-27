@@ -1,0 +1,8 @@
+{
+  "files.exclude": {
+    "*.mid": true,
+    "*.tmp": true,
+    "lilypond-*": true,
+    "package*": true
+  }
+}

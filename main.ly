@@ -17,52 +17,8 @@ global = {
   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
 }
 
-flute = \relative c'' {
-  \global
-  % Music follows here.
-  \repeat unfold 9 {r1} r2
-  \override Hairpin.circled-tip = ##t
-  a2\< ~ a1\!\pp ~ a1 ~ a1 ~ a2.\> r4\! r1
-
-  \tempo \markup { "rit. " } d,4 (e16 [f16 g16 a16 a8] \acciaccatura g8 a8) r4
-
-  r4 f8(\mp\> g8 a4 g8. a32 g32 c,2) r2\!
-
-  \override Hairpin.circled-tip = ##f
-  d'8(\p\> a8 g4) f4 e4
-  e8( f8 g4 a2)
-  g2(\!\ppp a4 d4)
-  c2. a'4
-
-  \key ees \major
-
-}
-
-clarinet = \relative c'' {
-  \global
-  \transposition bes
-  % Music follows here.
-
-  \repeat unfold 8 {r1}
-  \mark \default
-  a2.\p^"solo espressivo"( g4 g2 f2)
-  a2.( g4 g2 f2)
-  a2.( g4 g2 f2)
-  g2.( f4 e2.) r4
-
-  \mark \default
-  \override Hairpin.circled-tip = ##t
-  a8(\mp\> f8 ~ f2. ~ f8) r8\!
-  g8(\< a g f e f)
-
-  \once \override Hairpin.circled-tip = ##f
-  bes(\!\mp\> c bes2.)
-  \parenthesize g8(\! f8\p g4 e2)
-
-  g2( a2) r4 c8( bes a g a4)
-
-  \key ees \major
-}
+\include "01_flute.ly"
+\include "02_clarinet.ly"
 
 hornF = \relative c' {
   \global
@@ -106,12 +62,6 @@ euphonium = \relative c {
   aes1\!\mp^"luminoso")
 }
 
-flutePart = \new Staff \with {
-  instrumentName = "Flute"
-  shortInstrumentName = "Fl."
-  midiInstrument = "flute"
-} \flute
-
 clarinetPart = \new Staff \with {
   instrumentName = "Clarinet"
   shortInstrumentName = "Cl."
@@ -127,7 +77,7 @@ hornFPart = \new Staff \with {
 euphoniumPart = \new Staff \with {
   instrumentName = "Euphonium"
   shortInstrumentName = "Euph."
-  midiInstrument = "tuba"
+  midiInstrument = "trombone"
 } { \clef bass \euphonium }
 
 \score {
