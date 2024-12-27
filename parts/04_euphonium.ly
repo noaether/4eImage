@@ -6,7 +6,7 @@ euphonium = \relative c {
   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
 
   \compressMMRests { R1*8 } \mark \default
-  r1 r1 \break r1 r1
+  r1 r1 \pageBreak r1 r1
 
   \once \override Hairpin.circled-tip = ##t
   a'2.\< ~ a1\!\pp ~ a1 ~ a2. r4
@@ -48,11 +48,6 @@ euphoniumBookPart = \new Staff \with {
     \layout {
       indent = 25
       short-indent = 10
-      \context {
-            \Score
-            \override NonMusicalPaperColumn.line-break-permission = ##f
-            \override NonMusicalPaperColumn.page-break-permission = ##f
-        }
     }
 
     \midi {
