@@ -5,9 +5,6 @@ clarinet = \relative c'' {
 
   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
 
-  \transposition bes
-  % Music follows here.
-
   \repeat unfold 8 {r1}
   \mark \default
   a2.\p^"solo espressivo"( g4 g2 f2)
