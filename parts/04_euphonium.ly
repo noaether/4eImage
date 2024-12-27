@@ -20,7 +20,7 @@ euphonium = \relative c {
 }
 
 breakLayout = \new Voice {
-
+  s1 * 10 \break
 }
 
 euphoniumPart = \new Staff \with {
@@ -47,6 +47,7 @@ euphoniumBookPart = \new Staff \with {
 }
   \score {
     <<
+      breakLayout
       \transpose c c \euphoniumBookPart
     >>
     \layout {
