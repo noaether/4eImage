@@ -18,13 +18,13 @@ euphonium = \relative c {
   \key ees \major
   aes1\!\mp^"luminoso")
 
-  r4 g8(\> aes g f ees f) g2.(\pp f4 ees1)
+  r4 g8(\> aes g f ees f) g2.(\pp f4 ees1)\<
 
   %%%%% C %%%%%
   \mark \default
   \key f \major
 
-  c2.( bes4 bes2 a2)
+  c2.(\mp bes4 bes2 a2)
 }
 
 euphoniumPart = \new Staff \with {
