@@ -27,7 +27,7 @@ flute = \relative c'' {
 
   e4( d4 bes4 g2.) r4 r4
 
-  a2 g4 \mark \default %%%%% C %%%%%
+  aes2 g4 \mark \default %%%%% C %%%%%
 }
 
 flutePart = \new Staff \with {
