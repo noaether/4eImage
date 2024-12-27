@@ -58,6 +58,7 @@ hornF = \relative c' {
   g1( ~ g2\pp a4) r4
   
   a2.\p^"espressivo"( g4 g2 f2)
+  \repeat unfold 2 {g2. (f4 f2 e2)}
   
 }
 
