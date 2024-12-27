@@ -34,6 +34,12 @@ hornFPart = \new Staff \with {
   midiInstrument = "french horn"
 } \hornF
 
+hornFBookPart = \new Staff \with {
+  instrumentName = "Horn in F"
+  shortInstrumentName = ""
+  midiInstrument = "french horn"
+} \hornF
+
 \book {
   \bookOutputName "Horn"
   \header {
@@ -46,12 +52,11 @@ hornFPart = \new Staff \with {
 }
   \score {
     <<
-      \transpose f, c \hornFPart
+      \transpose f, c \hornFBookPart
     >>
     \layout {
       indent = 25
       short-indent = 20
-      \context { \Staff \remove "Instrument_name_engraver" }
     }
 
     \midi {
