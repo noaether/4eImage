@@ -34,6 +34,7 @@ flute = \relative c'' {
   g2(\!\ppp a4 d4)
   c2. a'4
   
+  \key ees \major  
    
 }
 
