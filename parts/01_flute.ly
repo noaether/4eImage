@@ -25,7 +25,7 @@ flute = \relative c'' {
 
   g4 g2\!\startTrillSpan f4\stopTrillSpan) r4
 
-  e4( d4 bes4 g4)
+  e4( d4 bes4 g2.)
 }
 
 flutePart = \new Staff \with {
