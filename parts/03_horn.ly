@@ -34,7 +34,7 @@ hornF = \relative c' {
   %%%%% C %%%%%
   \mark \default
   \key f \major
-  a2.\mf
+  a2.\mf( g4 f2.)
 
 }
 
