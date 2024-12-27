@@ -101,7 +101,6 @@ euphoniumPart = \new Staff \with {
 } { \clef bass \euphonium }
 
 \score {
-  \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
   <<
     \flutePart
     \transpose c c \clarinetPart
