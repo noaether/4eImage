@@ -26,7 +26,11 @@ flute = \relative c'' {
      
   \tempo \markup { "rit. " } d,4 (e16 [f16 g16 a16 a8] \acciaccatura g8 a8) r4
   
-  r4 f8( g8 a4 g8. a32 g32 c,2)
+  r4 f8(\mp\> g8 a4 g8. a32 g32 c,2) r2\!
+  
+  d'8( a8 g4) f4 e4
+  e8( f8 g4 a2)
+  
    
 }
 
