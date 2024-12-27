@@ -127,7 +127,7 @@ hornFPart = \new Staff \with {
 euphoniumPart = \new Staff \with {
   instrumentName = "Euphonium"
   shortInstrumentName = "Euph."
-  midiInstrument = "trombone"
+  midiInstrument = "tuba"
 } { \clef bass \euphonium }
 
 \score {
