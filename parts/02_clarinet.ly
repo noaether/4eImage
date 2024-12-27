@@ -24,6 +24,8 @@ clarinet = \relative c'' {
   g2( a2) r4 c8( bes a g a4)
 
   \key ees \major
+
+  g2. f4 e2.\> r4\!\p
 }
 
 clarinetPart = \new Staff \with {
