@@ -78,8 +78,8 @@ euphoniumPart = \new Staff \with {
 \score {
   <<
     \flutePart
-    \transpose bes c \clarinetPart
-    \transpose f, c \hornFPart
+    \transpose c c \clarinetPart
+    \transpose c c \hornFPart
     \euphoniumPart
   >>
   \layout {
