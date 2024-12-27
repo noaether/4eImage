@@ -1,4 +1,4 @@
-clarinet = \relative c' {
+clarinet = \relative c''' {
   \time 4/4
   \tempo " = 60"
   \key f \major
