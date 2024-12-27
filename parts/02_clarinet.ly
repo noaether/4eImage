@@ -27,9 +27,9 @@ clarinet = \relative c'' {
 
   g2.( f4 e2.\>) r4\p
 
-  r4 \xNotesOn g4 g4 f4 \xNotesOff e2. f4\< \mark \default %%%%% C %%%%%
+  r4 \xNotesOn g4 g4 f4 \xNotesOff e2.( f4\< \mark \default %%%%% C %%%%%
   \key f \major
-  g2.\mf
+  g2.)\mf
 }
 
 clarinetPart = \new Staff \with {
