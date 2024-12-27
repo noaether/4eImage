@@ -19,32 +19,7 @@ global = {
 
 \include "01_flute.ly"
 \include "02_clarinet.ly"
-
-hornF = \relative c' {
-  \global
-
-  a2.\p^"solo espressivo"( g4 g2 f2)
-  a2.( g4 g2 f2)
-  g2.( f4 f2 e2)
-  g2.( f4 e2.) r4
-
-
-  \once \override Hairpin.circled-tip = ##t
-  a1\>\pp ~ a1 ~ a2.
-
-  r4\! \repeat unfold 3 {r1}
-
-  \once \override Hairpin.circled-tip = ##t
-  g1\<( ~ g2\!\pp a4) r4
-
-  a2.\p^"espressivo"( g4 g2 f2)
-  g2. (f4 f2 e2)
-  g2. (f4 f2 e2\<)
-
-  \key ees \major
-  g2.\!\mf^"metallic"( f4 e2.)
-
-}
+\include "03_horn.ly"
 
 euphonium = \relative c {
   \global
@@ -61,12 +36,6 @@ euphonium = \relative c {
   \key ees \major
   aes1\!\mp^"luminoso")
 }
-
-hornFPart = \new Staff \with {
-  instrumentName = "Horn in F"
-  shortInstrumentName = "Hn.F."
-  midiInstrument = "french horn"
-} \hornF
 
 euphoniumPart = \new Staff \with {
   instrumentName = "Euphonium"
