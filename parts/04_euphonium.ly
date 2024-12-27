@@ -19,6 +19,10 @@ euphonium = \relative c {
   aes1\!\mp^"luminoso")
 
   r4 g8( aes g f ees f) g2.( f4 ees1)
+
+  %%%%% C %%%%%
+  \mark \default
+  \key f \major
 }
 
 euphoniumPart = \new Staff \with {
