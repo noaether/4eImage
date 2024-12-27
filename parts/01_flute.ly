@@ -25,7 +25,7 @@ flute = \relative c'' {
 
   g4 g2\mf\startTrillSpan f4\stopTrillSpan) r4
 
-  e4( d4 bes4 g2.) r4 r4
+  e4( d4 bes4 g2.)\> r4\! r4
 
   aes2(\pp\< g4 \mark \default %%%%% C %%%%%
   \key f \major
