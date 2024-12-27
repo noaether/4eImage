@@ -6,7 +6,7 @@ euphonium = \relative c {
   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
 
   \compressMMRests { R1*8 } \mark \default
-  r1 r1 \break r1 r1
+  r1 r1 r1 r1
 
   \once \override Hairpin.circled-tip = ##t
   a'2.\< ~ a1\!\pp ~ a1 ~ a2. r4
@@ -17,6 +17,10 @@ euphonium = \relative c {
   r4 a'8(\<\p bes a g f a
   \key ees \major
   aes1\!\mp^"luminoso")
+}
+
+breakLayout = \new Voice {
+
 }
 
 euphoniumPart = \new Staff \with {
