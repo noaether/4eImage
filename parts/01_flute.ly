@@ -29,7 +29,7 @@ flute = \relative c'' {
 
   aes2(\pp\< g4 \mark \default %%%%% C %%%%%
   \key f \major
-  f4\mf e2 d4 d2 c2)
+  f4\!\mf e2 d4 d2 c2)
 }
 
 flutePart = \new Staff \with {
