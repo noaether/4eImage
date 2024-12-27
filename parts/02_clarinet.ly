@@ -17,7 +17,7 @@ clarinet = \relative c'' {
   a8(\mp\> f8 ~ f2. ~ f8) r8\!
   g8(\< a g f e f)
 
-  \once \override Hairpin.circled-tip = ##f
+  \override Hairpin.circled-tip = ##f
   bes(\!\mp\> c bes2.)
   \parenthesize g8(\! f8\p g4 e2)
 
