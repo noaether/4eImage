@@ -23,7 +23,7 @@ flute = \relative c'' {
 
   \key ees \major
 
-  g4 g2\!\startTrillSpan f4\stopTrillSpan) r4
+  g4 g2\mf\startTrillSpan f4\stopTrillSpan) r4
 
   e4( d4 bes4 g2.) r4 r4
 
