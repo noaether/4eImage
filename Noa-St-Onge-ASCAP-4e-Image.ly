@@ -24,7 +24,9 @@ flute = \relative c'' {
    \override Hairpin.circled-tip = ##t
     a2\< ~ a1\!\pp ~ a1 ~ a1 ~ a2.\> r4\! r1
      
-  \tempo \markup { "rit. " } d,4 (e16 [f16 g16 a16 a8] \slashedGrace g8 a4) r4
+  \tempo \markup { "rit. " } d,4 (e16 [f16 g16 a16 a8] \acciaccatura g8 a8) r4
+  
+  r4 f8( g8 a4 g8. a32 g32 c,2)
    
 }
 
@@ -42,6 +44,7 @@ clarinet = \relative c'' {
 
   \override Hairpin.circled-tip = ##t
   a8(\mp\> f8 ~ f2. ~ f8) r8\!
+  g8( a g f e f) bes( c bes2.)
 }
 
 hornF = \relative c' {
