@@ -6,7 +6,7 @@ euphonium = \relative c {
   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
 
   \compressMMRests { R1*8 } \mark \default
-  \repeat unfold 4 {r1}
+  r1 r1 r1 r1
 
   \once \override Hairpin.circled-tip = ##t
   a'2.\< ~ a1\!\pp ~ a1 ~ a2. r4
