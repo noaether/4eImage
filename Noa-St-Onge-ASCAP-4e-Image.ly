@@ -54,7 +54,7 @@ hornF = \relative c' {
   g2.( f4 e2.) r4 \break
   
   
-  \override Hairpin.circled-tip = ##t
+  \once \override Hairpin.circled-tip = ##t
   a1\>\pp ~ a1 ~ a2.\!
   
   r4 \repeat unfold 3 {r1}
@@ -62,7 +62,9 @@ hornF = \relative c' {
   g1( ~ g2\pp a4) r4
   
   a2.\p^"espressivo"( g4 g2 f2)
-  \repeat unfold 2 {g2. (f4 f2 e2)}
+  g2. (f4 f2 e2)
+  g2. (f4 f2 e2\<)
+  g2. f4 e2.\!
   
 }
 
@@ -77,8 +79,7 @@ euphonium = \relative c {
   d,2\pp\<( f2 c1\!)\>
   f2\!\p\<( d2 c2\!\mf\> a2) a1\!\mp
   
-  r4 a'8 bes a g f a
-  aes1
+  r4 a'8(\<\p bes a g f a aes1\!\mp^"luminoso")
 }
 
 flutePart = \new Staff \with {
