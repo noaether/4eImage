@@ -14,8 +14,8 @@ clarinet = \relative c'' {
 
   \mark \default
   \override Hairpin.circled-tip = ##t
-  a8(\mp\> f8 ~ f2. ~ f8) r8\!
-  g8(\< a g f e f)
+  a8(\mp\> f8 ~ f2. ~ f8) r8\<
+  g8( a g f e f)
 
   \override Hairpin.circled-tip = ##f
   bes(\!\mp\> c bes2.)
