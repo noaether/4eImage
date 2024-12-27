@@ -1,6 +1,6 @@
 hornF = \relative c' {
   \time 4/4
-  \tempo "Andante [ = 60]"
+  \tempo " = 60"
   \key f \major
 
   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
