@@ -18,7 +18,7 @@ euphonium = \relative c {
   \key ees \major
   aes1\!\mp^"luminoso")
 
-  r4 g8 aes8 g8 g8 ees8 f g2.
+  r4 g8 aes g f ees f g2.
 }
 
 euphoniumPart = \new Staff \with {
