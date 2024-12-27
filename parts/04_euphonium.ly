@@ -19,10 +19,6 @@ euphonium = \relative c {
   aes1\!\mp^"luminoso")
 }
 
-breakLayout = \new Voice {
-  s1 * 10 \break
-}
-
 euphoniumPart = \new Staff \with {
   instrumentName = "Euphonium"
   shortInstrumentName = "Euph."
@@ -47,7 +43,9 @@ euphoniumBookPart = \new Staff \with {
 }
   \score {
     <<
-      \breakLayout
+      \new Voice {
+        s1 * 10 \break
+      }
       \transpose c c \euphoniumBookPart
     >>
     \layout {
