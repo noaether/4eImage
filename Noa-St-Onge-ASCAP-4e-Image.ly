@@ -64,7 +64,9 @@ hornF = \relative c' {
   a2.\p^"espressivo"( g4 g2 f2)
   g2. (f4 f2 e2)
   g2. (f4 f2 e2\<)
-  g2. f4 e2.\!
+  
+  \key ees \major
+  g2.\!\mf^"metallic" f4 e2.
   
 }
 
@@ -79,7 +81,9 @@ euphonium = \relative c {
   d,2\pp\<( f2 c1\!)\>
   f2\!\p\<( d2 c2\!\mf\> a2) a1\!\mp
   
-  r4 a'8(\<\p bes a g f a aes1\!\mp^"luminoso")
+  r4 a'8(\<\p bes a g f a 
+  \key ees \major 
+  aes1\!\mp^"luminoso")
 }
 
 flutePart = \new Staff \with {
