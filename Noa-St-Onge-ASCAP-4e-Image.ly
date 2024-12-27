@@ -13,6 +13,8 @@ global = {
   \time 4/4
   \tempo "Andante [ = 60]"
   \key f \major
+  
+   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
 }
 
 flute = \relative c'' {
@@ -74,6 +76,9 @@ euphonium = \relative c {
   
   d,2\pp\<( f2 c1\!)\>
   f2\!\p\<( d2 c2\!\mf\> a2) a1\!\mp
+  
+  r4 a'8 bes a g f a
+  aes1
 }
 
 flutePart = \new Staff \with {
