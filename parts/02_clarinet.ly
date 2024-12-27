@@ -36,7 +36,7 @@ clarinetPart = \new Staff \with {
 } \clarinet
 
 \book {
-  \bookOutputName "Flute"
+  \bookOutputName "Clarinet"
   \header {
   title = "4e Image"
   subtitle = "Exposition Immersive"
