@@ -50,6 +50,7 @@ clarinet = \relative c'' {
   a2.( g4 g2 f2) 
   g2.( f4 \break e2.) r4
 
+  \mark \default
   \override Hairpin.circled-tip = ##t
   a8(\mp\> f8 ~ f2. ~ f8) r8\!
   g8(\< a g f e f) 
