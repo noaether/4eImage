@@ -28,9 +28,9 @@ flute = \relative c'' {
   
   r4 f8(\mp\> g8 a4 g8. a32 g32 c,2) r2\!
   
+  \override Hairpin.circled-tip = ##f
   d'8(\p\> a8 g4) f4 e4
   e8( f8 g4 a2)
-  \override Hairpin.circled-tip = ##false
   g2(\!\ppp a4 d4)
   c2. a'4
   
