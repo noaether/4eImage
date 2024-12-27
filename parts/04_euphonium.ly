@@ -47,7 +47,7 @@ euphoniumBookPart = \new Staff \with {
 }
   \score {
     <<
-      breakLayout
+      \breakLayout
       \transpose c c \euphoniumBookPart
     >>
     \layout {
