@@ -4,5 +4,7 @@
     "**/*.tmp": true,
     "lilypond-*": true,
     "package*": true
-  }
+  },
+  "vscord.status.buttons.button1.git.active.url": "https://github.com/noaether/4eImage",
+  "vscord.status.buttons.button1.git.idle.url": "https://github.com/noaether/4eImage"
 }
