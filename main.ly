@@ -35,6 +35,7 @@ hornF = \relative c' {
 
   r4\! \repeat unfold 3 {r1}
 
+  \once \override Hairpin.circled-tip = ##t
   g1\<( ~ g2\!\pp a4) r4
 
   a2.\p^"espressivo"( g4 g2 f2)
