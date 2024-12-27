@@ -52,7 +52,11 @@ clarinet = \relative c'' {
 
   \override Hairpin.circled-tip = ##t
   a8(\mp\> f8 ~ f2. ~ f8) r8\!
-  g8( a g f e f) bes( c bes2.)
+  g8(\< a g f e f) 
+  
+  \once \override Hairpin.circled-tip = ##f
+  bes(\!\mp\> c bes2.)
+  g8(\! f8\p g4 e2) 
 }
 
 hornF = \relative c' {
