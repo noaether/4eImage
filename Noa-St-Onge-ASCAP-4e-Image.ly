@@ -22,7 +22,7 @@ flute = \relative c'' {
    \override Hairpin.circled-tip = ##t
     a2\< ~ a1\!\pp ~ a1 ~ a1 ~ a2.\> r4\! r1
      
-  d,4 e16 [f16 g16 a16 a8] \acciaccatura g8 a4
+  d,4 (e16 [f16 g16 a16 a8] \slashedGrace g8 a4) r4
    
 }
 
