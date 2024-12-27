@@ -10,7 +10,8 @@ hornF = \relative c' {
   g2.( f4 f2 e2)
   g2.( f4 e2.) r4
 
-
+  %%%%% A %%%%%
+  \mark \default
   \once \override Hairpin.circled-tip = ##t
   a1\>\pp ~ a1 ~ a2.
 
@@ -19,6 +20,8 @@ hornF = \relative c' {
   \once \override Hairpin.circled-tip = ##t
   g1\<( ~ g2\!\pp a4) r4
 
+  %%%%% B %%%%%
+  \mark \default
   a2.\p^"espressivo"( g4 g2 f2)
   g2. (f4 f2 e2)
   g2. (f4 f2 e2\<)
