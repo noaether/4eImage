@@ -31,9 +31,9 @@ hornF = \relative c' {
 
 
   \once \override Hairpin.circled-tip = ##t
-  a1\>\pp ~ a1 ~ a2.\!
+  a1\>\pp ~ a1 ~ a2.
 
-  r4 \repeat unfold 3 {r1}
+  \!r4 \repeat unfold 3 {r1}
 
   g1( ~ g2\pp a4) r4
 
