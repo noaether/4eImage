@@ -19,10 +19,13 @@ flute = \relative c'' {
   d'8(\p\> a8 g4) f4 e4
   e8( f8 g4 a2)
   g2(\!\ppp a4 d4)
-  c2. a'4
+  c2. a'4(\<
 
   \key ees \major
 
+  g4 g2\!\startTrillSpan f4\stopTrillSpan) r4
+
+  e4( d4 bes4 g4)
 }
 
 flutePart = \new Staff \with {
