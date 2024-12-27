@@ -30,7 +30,7 @@ flute = \relative c'' {
   
   d'8(\p\> a8 g4) f4 e4
   e8( f8 g4 a2)
-  \once \override Hairpin.circled-tip = ##f
+  \override Hairpin.circled-tip = ##f
   g2(\!\ppp a4 d4)
   c2. a'4
   
