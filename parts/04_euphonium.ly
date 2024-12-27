@@ -24,7 +24,7 @@ euphonium = \relative c {
   \mark \default
   \key f \major
 
-  c2.( bes4 bes4 a2)
+  c2.( bes4 bes2 a2)
 }
 
 euphoniumPart = \new Staff \with {
