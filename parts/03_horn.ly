@@ -51,6 +51,7 @@ hornFPart = \new Staff \with {
     \layout {
       indent = 25
       short-indent = 20
+      \context { \Staff \remove "Instrument_name_engraver" }
     }
 
     \midi {
