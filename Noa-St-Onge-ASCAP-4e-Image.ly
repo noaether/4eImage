@@ -66,7 +66,7 @@ hornF = \relative c' {
   g2. (f4 f2 e2\<)
   
   \key ees \major
-  g2.\!\mf^"metallic" f4 e2.
+  g2.\!\mf^"metallic"( f4 e2.)
   
 }
 
