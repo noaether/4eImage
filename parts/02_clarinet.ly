@@ -32,6 +32,12 @@ clarinetPart = \new Staff \with {
   midiInstrument = "clarinet"
 } \clarinet
 
+clarinetBookPart = \new Staff \with {
+  instrumentName = "Clarinet"
+  shortInstrumentName = ""
+  midiInstrument = "clarinet"
+} \clarinet
+
 \book {
   \bookOutputName "Clarinet"
   \header {
@@ -44,11 +50,11 @@ clarinetPart = \new Staff \with {
 }
   \score {
     <<
-      \transpose bes, c \clarinetPart
+      \transpose bes, c \clarinetBookPart
     >>
     \layout {
       indent = 25
-      short-indent = 20
+      short-indent = 10
     }
 
     \midi {
