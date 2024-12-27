@@ -48,6 +48,11 @@ euphoniumBookPart = \new Staff \with {
     \layout {
       indent = 25
       short-indent = 10
+      \context {
+            \Score
+            \override NonMusicalPaperColumn.line-break-permission = ##f
+            \override NonMusicalPaperColumn.page-break-permission = ##f
+        }
     }
 
     \midi {
