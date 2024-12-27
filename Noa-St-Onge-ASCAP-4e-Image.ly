@@ -61,7 +61,7 @@ hornF = \relative c' {
   a2.\p^"solo espressivo"( g4 g2 f2)
   a2.( g4 g2 f2)
   g2.( f4 f2 e2)
-  g2.( f4 e2.) r4 \break
+  g2.( f4 e2.) r4
   
   
   \once \override Hairpin.circled-tip = ##t
