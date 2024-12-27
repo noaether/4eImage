@@ -1,6 +1,6 @@
 euphonium = \relative c {
   \time 4/4
-  \tempo "Andante [ = 60]"
+  \tempo " = 60"
   \key f \major
 
   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
@@ -46,7 +46,7 @@ euphoniumBookPart = \new Staff \with {
       \new Voice {
         s1 * 10 \break
       }
-      \transpose c c \euphoniumBookPart
+      \euphoniumBookPart
     >>
     \layout {
       indent = 25
