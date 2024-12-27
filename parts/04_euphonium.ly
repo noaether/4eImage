@@ -11,7 +11,7 @@ euphonium = \relative c {
   \once \override Hairpin.circled-tip = ##t
   a'2.\< ~ a1\!\pp ~ a1 ~ a2. r4
 
-  d,2\pp\<( f2 c1\!)\>
+  d,2\pp\<( f2 c1)\>
   f2\!\p\<( d2 c2\!\mf\> a2) a1\!\mp
 
   r4 a'8(\<\p bes a g f a
