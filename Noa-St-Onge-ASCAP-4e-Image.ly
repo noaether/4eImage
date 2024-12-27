@@ -37,7 +37,8 @@ clarinet = \relative c'' {
   a2.( g4 g2 f2) 
   g2.( f4 \break e2.) r4
 
-  
+  \override Hairpin.circled-tip = ##t
+  a8(\mp\> f8 ~ f2. ~ f8) r8\!
 }
 
 hornF = \relative c' {
@@ -64,7 +65,6 @@ hornF = \relative c' {
 
 euphonium = \relative c {
   \global
-  % Music follows here.
   
   \repeat unfold 12 {r1} r4
   
