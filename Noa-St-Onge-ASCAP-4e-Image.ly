@@ -97,7 +97,7 @@ euphoniumPart = \new Staff \with {
   <<
     \flutePart
     \transpose c c \clarinetPart
-    \transpose f, c \hornFPart
+    \transpose c c \hornFPart
     \euphoniumPart
   >>
       \layout {
