@@ -62,12 +62,6 @@ euphonium = \relative c {
   aes1\!\mp^"luminoso")
 }
 
-clarinetPart = \new Staff \with {
-  instrumentName = "Clarinet"
-  shortInstrumentName = "Cl."
-  midiInstrument = "clarinet"
-} \clarinet
-
 hornFPart = \new Staff \with {
   instrumentName = "Horn in F"
   shortInstrumentName = "Hn.F."
