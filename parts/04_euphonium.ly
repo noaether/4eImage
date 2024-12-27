@@ -44,7 +44,7 @@ euphoniumBookPart = \new Staff \with {
   \score {
     <<
       \new Voice {
-        s1 * 10 \break
+        s1 * 15 \break
       }
       \euphoniumBookPart
     >>
