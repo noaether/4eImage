@@ -27,6 +27,7 @@ flute = \relative c'' {
 
   e4( d4 bes4 g2.)\> r4\! r4
 
+  \once \slurUp
   aes2(\pp\< g4 \mark \default %%%%% C %%%%%
   \key f \major
   f4\!\mf e2 d4 d2 c2)
