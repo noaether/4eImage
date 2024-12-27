@@ -56,7 +56,7 @@ hornFBookPart = \new Staff \with {
     >>
     \layout {
       indent = 25
-      short-indent = 20
+      short-indent = 10
     }
 
     \midi {
