@@ -34,8 +34,7 @@ hornF = \relative c' {
   %%%%% C %%%%%
   \mark \default
   \key f \major
-  a2.\mf( g4 f2.)
-
+  a2.\mf( g4 f2.) a4
 }
 
 hornFPart = \new Staff \with {
