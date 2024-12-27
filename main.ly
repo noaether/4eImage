@@ -22,7 +22,6 @@ global = {
 
 hornF = \relative c' {
   \global
-  \transposition f
 
   a2.\p^"solo espressivo"( g4 g2 f2)
   a2.( g4 g2 f2)
