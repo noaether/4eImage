@@ -37,6 +37,7 @@ flute = \relative c'' {
   %%%%% D %%%%%
   \mark \default
   \time 5/4
+  f2( g4 e4 d4)
 }
 
 flutePart = \new Staff \with {
