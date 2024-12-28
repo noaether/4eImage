@@ -10,7 +10,7 @@ clarinet = \relative c'' {
   a2.\p^"solo espressivo"( g4 g2 f2)
   a2.( g4 g2 f2)
   a2.( g4 g2 f2)
-  g2.( f4 \tempo "rit." e2.) r4
+  g2.( f4 e2.) r4
 
   \mark \default
   \override Hairpin.circled-tip = ##t
