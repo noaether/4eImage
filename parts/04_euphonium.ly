@@ -26,7 +26,7 @@ euphonium = \relative c {
 
   c2.(\mp bes4 bes2 a2)
   g2.( f4 f2 e2)
-  f2( d'2 c4 g8 a8 bes8 c8 d8 e8)
+  f2( d'2 c4 g8\< a8 bes8 c8\> d8 e8) d4\!
 }
 
 euphoniumPart = \new Staff \with {
