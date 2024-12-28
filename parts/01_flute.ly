@@ -33,6 +33,10 @@ flute = \relative c'' {
   f4\!\mf e2 d4 d2 c2)
   f2( e4 d4 e2 d2)
   c'2( bes4 a4 a2 g2)
+
+  %%%%% D %%%%%
+  \mark \default
+  \time 5/4
 }
 
 flutePart = \new Staff \with {
