@@ -38,6 +38,7 @@ clarinet = \relative c'' {
   %%%%% D %%%%%
   \mark \default
   \time 5/4
+  d2 d2.
 }
 
 clarinetPart = \new Staff \with {
