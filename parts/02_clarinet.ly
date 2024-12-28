@@ -34,6 +34,10 @@ clarinet = \relative c'' {
   \slurNeutral
   d2( e4 g4 a2 g2)
   f2.( e4 e2 d4 d4)
+
+  %%%%% D %%%%%
+  \mark \default
+  \time 5/4
 }
 
 clarinetPart = \new Staff \with {
