@@ -25,7 +25,7 @@ global = {
 \include "04_euphonium.ly"
 
 \score {
-  <<
+  \articulate <<
     \flutePart
     \transpose c c \clarinetPart
     \transpose c c \hornFPart
