@@ -1,7 +1,5 @@
 \version "2.24.2"
 
-\include "articulate.ly"
-
 \header {
   title = "4e Image"
   subtitle = "Exposition Immersive"
