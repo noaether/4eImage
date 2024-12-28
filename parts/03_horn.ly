@@ -36,7 +36,7 @@ hornF = \relative c' {
   \key f \major
   a2.\mf( g4 f2.) a4
   bes2.(\> a4 a2 g2)
-  a2.(\! g4 g2 f2)
+  a2.(\mp g4 g2 f2)
 }
 
 hornFPart = \new Staff \with {
