@@ -26,7 +26,11 @@ euphonium = \relative c {
 
   c2.(\mp bes4 bes2 a2)
   g2.( f4 f2 e2)
-  f2( d'2 c4 g8\< a8 bes8 c8\> d8 e8) \time 5/4 d4\!
+  f2( d'2 c4 g8\< a8 bes8 c8\> d8 e8)
+
+  %%%%% D %%%%%
+  \mark \default
+  \time 5/4
 }
 
 euphoniumPart = \new Staff \with {
