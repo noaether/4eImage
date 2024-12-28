@@ -1,6 +1,6 @@
 hornF = \relative c' {
   \time 4/4
-  \tempo Andante 4=60
+  \tempo " = 60"
   \key f \major
 
   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
@@ -76,6 +76,8 @@ hornFBookPart = \new Staff \with {
       short-indent = 10
     }
 
-    \midi {}
+    \midi {
+      \tempo 4=60
+    }
   }
 }

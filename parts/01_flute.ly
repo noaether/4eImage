@@ -1,6 +1,6 @@
 flute = \relative c'' {
   \time 4/4
-  \tempo Andante 4=60
+  \tempo " = 60"
   \key f \major
 
   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
@@ -10,7 +10,7 @@ flute = \relative c'' {
   \compressMMRests { R1*8 } \mark \default r1 r2
   a2\< ~ a1\!\pp ~ a1 ~ a1 ~ a2.\> r4\! r1
 
-  d,4 (e16 [f16 g16 a16 a8] \slashedGrace g8 a4*1/2) r4
+  \tempo \markup { "rit. " } d,4 (e16 [f16 g16 a16 a8] \slashedGrace g8 a4*1/2) r4
 
   \mark \default %B
   r4 f8(\mp\> g8 a4 g8. a32 g32 c,2) r2\!
