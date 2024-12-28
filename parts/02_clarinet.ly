@@ -1,6 +1,6 @@
 clarinet = \relative c'' {
   \time 4/4
-  \tempo " = 60"
+  \tempo Andante 4=60
   \key f \major
 
   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
