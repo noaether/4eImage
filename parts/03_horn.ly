@@ -77,8 +77,6 @@ hornFBookPart = \new Staff \with {
       short-indent = 10
     }
 
-    \midi {
-      \tempo 4=60
-    }
+    \midi {}
   }
 }
