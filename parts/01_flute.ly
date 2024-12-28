@@ -10,7 +10,7 @@ flute = \relative c'' {
   \compressMMRests { R1*8 } \mark \default r1 r2
   a2\< ~ a1\!\pp ~ a1 ~ a1 ~ a2.\> r4\! r1
 
-  \tempo \markup { "rit. " } d,4 (e16 [f16 g16 a16 a8] \slashedGrace g8 a4*1/2) r4
+  \tempo "rit." \tempo 4=45 d,4 (e16 [f16 g16 a16 a8] \slashedGrace g8 a4*1/2) r4
 
   \mark \default %B
   r4 f8(\mp\> g8 a4 g8. a32 g32 c,2) r2\!
