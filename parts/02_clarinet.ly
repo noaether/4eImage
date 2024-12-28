@@ -31,6 +31,7 @@ clarinet = \relative c'' {
   r4 \xNotesOn g4 g4 f4 \xNotesOff e2.( f4\< \mark \default %%%%% C %%%%%
   \key f \major
   g2.)\mf a4 d,1
+  \slurNeutral
   d2( e4 g4 a2 g2)
   f2.( e4 e2 d4 d4)
 }
