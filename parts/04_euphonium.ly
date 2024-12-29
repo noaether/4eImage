@@ -34,6 +34,8 @@ euphonium = \relative c {
   %\time 5/4
   f4\! c4 g2 a4
   %\time 4/4
+  c4 a2 bes4
+  a2 bes4 c4
 }
 
 euphoniumPart = \new Staff \with {
