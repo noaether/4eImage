@@ -40,6 +40,7 @@ clarinet = \relative c'' {
   %\time 5/4
   d2 d2.
   %\time 4/4
+  f4( bes4 d2)
 }
 
 clarinetPart = \new Staff \with {
