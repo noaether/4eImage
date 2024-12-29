@@ -9,8 +9,7 @@ globalDynamics = \new Dynamics {
     s1*7 s4\startTextSpan s2 s4\stopTextSpan
 
   \mark \default
-    \markLengthOn
-    s1^\atempo
+    s1\mark  \markup \bold \large \upright "a tempo"
     s1*9
 
   \mark \default
