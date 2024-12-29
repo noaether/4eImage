@@ -1,6 +1,8 @@
 \include "00_dynamics.ly"
 
 euphonium = \relative c {
+  \textLengthOn
+
   \time 4/4
   \tempo " = 60"
   \key f \major
