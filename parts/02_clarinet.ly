@@ -44,6 +44,8 @@ clarinet = \relative c'' {
   %\time 3/4
   c4--\mf bes4-- bes8( a8)
   bes4-- d4-- bes8( c8)
+  e2-- bes8( c8)
+  g4-- g8--( f8-- e8-- d8--)
 }
 
 clarinetPart = \new Staff \with {
