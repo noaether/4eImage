@@ -11,7 +11,7 @@ globalDynamics = \new Dynamics {
     s1*7 s4\startTextSpan s2 s4\stopTextSpan
 
   \mark \default
-    s4 s4^\atempo s2
+    s1^\atempo
     s1*9
 
   \mark \default
