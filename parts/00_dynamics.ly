@@ -6,10 +6,10 @@ globalDynamics = \new Dynamics {
   s1*8
 
   \mark \default
-    s1*7 s4\startTextSpan s2 s4\stopTextSpan
+    s1*7 s4\startTextSpan s2 s4\stopTextSpan \mark \markup \bold \large \upright "a tempo"
 
   \mark \default
-    s1\mark  \markup \bold \large \upright "a tempo"
+    s1
     s1*9
 
   \mark \default
