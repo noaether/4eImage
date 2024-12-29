@@ -1,3 +1,5 @@
+\include "00_dynamics.ly"
+
 hornF = \relative c' {
   \time 4/4
   \tempo " = 60"
@@ -11,7 +13,6 @@ hornF = \relative c' {
   g2.( f4 e2.) r4
 
   %%%%% A %%%%%
-  \mark \default
   \once \override Hairpin.circled-tip = ##t
   a1\>\pp ~ a1 ~ a2.
 
@@ -21,7 +22,6 @@ hornF = \relative c' {
   g1\<( ~ g2\!\pp a4) r4
 
   %%%%% B %%%%%
-  \mark \default
   a2.\p^"espressivo"( g4 g2 f2)
   g2. (f4 f2 e2)
   g2. (f4 f2 e2\<)
@@ -32,17 +32,15 @@ hornF = \relative c' {
   r4 g8(\< aes8 g8 f8 ees8 f8)
 
   %%%%% C %%%%%
-  \mark \default
   \key f \major
   a2.\mf( g4 f2.) a4
   bes2.(\> a4 a2 g2)
   a2.(\mp g4 g2 f2)
 
   %%%%% D %%%%%
-  \mark \default
-  \time 5/4
+  %\time 5/4
   f2 g4 a8( bes8 d4)
-  \time 4/4
+  %\time 4/4
 }
 
 hornFPart = \new Staff \with {
@@ -69,6 +67,7 @@ hornFBookPart = \new Staff \with {
 }
   \score {
     <<
+      \globalDynamics
       \transpose f, c \hornFBookPart
     >>
     \layout {

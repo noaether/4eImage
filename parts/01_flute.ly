@@ -1,3 +1,5 @@
+\include "00_dynamics.ly"
+
 flute = \relative c'' {
   \time 4/4
   \tempo " = 60"
@@ -7,12 +9,12 @@ flute = \relative c'' {
 
   % Music follows here.
   \override Hairpin.circled-tip = ##t
-  \compressMMRests { R1*8 } \mark \default r1 r2
+  \compressMMRests { R1*8 } r1 r2
   a2\< ~ a1\!\pp ~ a1 ~ a1 ~ a2.\> r4\! r1
 
-  \tempo \markup { "rit. " } d,4 (e16 [f16 g16 a16 a8] \slashedGrace g8 a4*1/2) r4
+  d,4 (e16 [f16 g16 a16 a8] \slashedGrace g8 a4*1/2) r4
 
-  \mark \default %B
+  %%%%% B %%%%%
   r4 f8(\mp\> g8 a4 g8. a32 g32 c,2) r2\!
 
   \override Hairpin.circled-tip = ##f
@@ -28,17 +30,17 @@ flute = \relative c'' {
   e4( d4 bes4 g2.)\> r4\! r4
 
   \once \slurUp
-  aes2(\pp\< g4 \mark \default %%%%% C %%%%%
+  aes2(\pp\< g4 %%%%% C %%%%%
   \key f \major
   f4\!\mf e2 d4 d2 c2)
   f2( e4 d4 e2 d2)
+  \slurDown
   c'2( bes4 a4 a2 g2)
 
   %%%%% D %%%%%
-  \mark \default
-  \time 5/4
+  % 5/4
   f2( g4 e4 d4)
-  \time 4/4
+  % 4/4
 }
 
 flutePart = \new Staff \with {
@@ -60,6 +62,7 @@ flutePart = \new Staff \with {
   \score {
     <<
       \flutePart
+      \globalDynamics
     >>
     \layout {
       indent = 25

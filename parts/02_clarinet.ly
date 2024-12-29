@@ -1,3 +1,5 @@
+\include "00_dynamics.ly"
+
 clarinet = \relative c'' {
   \time 4/4
   \tempo " = 60"
@@ -6,13 +8,12 @@ clarinet = \relative c'' {
   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
 
   \repeat unfold 8 {r1}
-  \mark \default
   a2.\p^"solo espressivo"( g4 g2 f2)
   a2.( g4 g2 f2)
   a2.( g4 g2 f2)
   g2.( f4 e2.) r4
 
-  \mark \default
+  %%%%% b %%%%%
   \override Hairpin.circled-tip = ##t
   a8(\mp\> f8 ~ f2. ~ f8) r8\<
   g8( a g f e f)
@@ -28,7 +29,7 @@ clarinet = \relative c'' {
   g2.( f4 e2.\>) r4\p
 
   \slurUp
-  r4 \xNotesOn g4 g4 f4 \xNotesOff e2.( f4\< \mark \default %%%%% C %%%%%
+  r4 \xNotesOn g4 g4 f4 \xNotesOff e2.( f4\< %%%%% C %%%%%
   \key f \major
   g2.)\mf a4 d,1
   \slurNeutral
@@ -36,10 +37,9 @@ clarinet = \relative c'' {
   f2.( e4 e2 d4 d4)
 
   %%%%% D %%%%%
-  \mark \default
-  \time 5/4
+  %\time 5/4
   d2 d2.
-  \time 4/4
+  %\time 4/4
 }
 
 clarinetPart = \new Staff \with {
@@ -66,6 +66,7 @@ clarinetBookPart = \new Staff \with {
 }
   \score {
     <<
+      \globalDynamics
       \transpose bes, c \clarinetBookPart
     >>
     \layout {

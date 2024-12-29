@@ -1,3 +1,5 @@
+\include "00_dynamics.ly"
+
 euphonium = \relative c {
   \time 4/4
   \tempo " = 60"
@@ -5,7 +7,7 @@ euphonium = \relative c {
 
   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
 
-  \repeat unfold 8 { r1 } \mark \default
+  \repeat unfold 8 { r1 }
   \repeat unfold 4 { r1 } r4
 
   \once \override Hairpin.circled-tip = ##t
@@ -21,19 +23,17 @@ euphonium = \relative c {
   r4 g8(\> aes g f ees f) g2.(\pp f4 ees1)\<
 
   %%%%% C %%%%%
-  \mark \default
   \key f \major
 
   c2.(\mp bes4 bes2 a2)
   g2.( f4 f2 e2)
-  f2( d'2 c4 g8\tempo \markup { "rit." }
+  f2( d'2 c4 g8
   a8 bes8 c8 d8 e8)
 
   %%%%% D %%%%%
-  \mark \default
-  \time 5/4
+  %\time 5/4
   f4\! c4 g2 a4
-  \time 4/4
+  %\time 4/4
 }
 
 euphoniumPart = \new Staff \with {
@@ -60,6 +60,7 @@ euphoniumBookPart = \new Staff \with {
 }
   \score {
     <<
+      \globalDynamics
       \euphoniumBookPart
     >>
     \layout {

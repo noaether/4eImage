@@ -24,6 +24,7 @@ global = {
 
 \score {
   <<
+    \globalDynamics
     \flutePart
     \transpose c c \clarinetPart
     \transpose c c \hornFPart
