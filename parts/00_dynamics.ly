@@ -15,11 +15,15 @@ globalDynamics = \new Dynamics {
   \mark \default
     s1*5
     s4\startTextSpan
-    s2 s8.\stopTextSpan s16
+    \tempo 4=58 s8
+    \tempo 4=56 s8
+    \tempo 4=53 s8
+    \tempo 4=51 s8
+    \tempo 4=49 s8.\stopTextSpan
+    \tempo 4=47 s16
 
   \mark \default %%%%% D %%%%%
     \time 5/4
-    \set Score.tempoHideNote = ##t
     \tempo 4=45
     s4 % this doesnt work MAYBE NOW??? \tempo 4=45
     s4*5
