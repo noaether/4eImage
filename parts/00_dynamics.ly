@@ -1,8 +1,6 @@
 atempo = \markup \bold \large \upright "a tempo"
 
 globalDynamics = \new Dynamics {
-  \textLengthOn
-
   \override TextSpanner.bound-details.left.text = \markup \bold \large \upright "rit. "
   % startTextSpan and stopTextSpan always correspond to ritardando
   s1*8
@@ -11,7 +9,7 @@ globalDynamics = \new Dynamics {
     s1*7 s4\startTextSpan s2 s4\stopTextSpan
 
   \mark \default
-    s1^\atempo
+    s4 s4^\atempo s2
     s1*9
 
   \mark \default
