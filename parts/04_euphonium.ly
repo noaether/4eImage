@@ -35,7 +35,9 @@ euphonium = \relative c {
   f4\! c4 g2 a4
   %\time 4/4
   c4 a2 bes4
-  a2 bes4 c4
+  a2\< bes4 c4
+  %\time 3/4
+  f2.--\!
 }
 
 euphoniumPart = \new Staff \with {
