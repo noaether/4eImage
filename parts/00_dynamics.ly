@@ -19,7 +19,7 @@ globalDynamics = \new Dynamics {
 
   \mark \default %%%%% D %%%%%
     \time 5/4
-    s4 % figure out later \tempo 4=45
+    s4 % figure out placement later \tempo 4=45
     s4*5
     \time 4/4
 }
