@@ -15,6 +15,7 @@ globalDynamics = \new Dynamics {
   \mark \default
     s1*5
     s4\startTextSpan
+    \set Score.tempoHideNote = ##t
     \tempo 4=58 s8
     \tempo 4=56 s8
     \tempo 4=53 s8
