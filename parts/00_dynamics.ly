@@ -1,5 +1,5 @@
 globalDynamics = \new Dynamics {
-  \override TextSpanner.bound-details.left.text = \markup \bold \large \upright "rit."
+  \override TextSpanner.bound-details.left.text = \markup \bold \large \upright "rit. "
   % startTextSpan and stopTextSpan always correspond to ritardando
   s1 * 8
 
