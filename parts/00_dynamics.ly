@@ -1,4 +1,4 @@
-atempo = \markup \bold \large \upright "a tempo"
+atempo = 
 
 globalDynamics = \new Dynamics {
   \override TextSpanner.bound-details.left.text = \markup \bold \large \upright "rit. "
@@ -9,7 +9,7 @@ globalDynamics = \new Dynamics {
     s1*7 s4\startTextSpan s2 s4\stopTextSpan
 
   \mark \default
-    s4\mark \atempo
+    s4\mark \markup \bold \large \upright "a tempo"
     s1*9
 
   \mark \default
