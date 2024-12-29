@@ -31,7 +31,7 @@ euphonium = \relative c {
   %%%%% D %%%%%
   \mark \default
   \time 5/4
-  f4 c4 g2 a4
+  f4\! c4 g2 a4
   \time 4/4
 }
 
