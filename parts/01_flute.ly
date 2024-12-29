@@ -36,6 +36,7 @@ flute = \relative c'' {
   f2( e4 d4 e2 d2)
   \slurDown
   c'2( bes4 a4 a2 g2)
+  \slurNeutral
 
   %%%%% D %%%%%
   % 5/4
