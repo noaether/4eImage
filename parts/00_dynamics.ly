@@ -19,7 +19,7 @@ globalDynamics = \new Dynamics {
 
   \mark \default %%%%% D %%%%%
     \time 5/4
-    s4 % this should work \tempo 4=45
+    s4 % this doesnt work :( \tempo 4=45
     s4*5
     \time 4/4
 }
