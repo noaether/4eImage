@@ -29,4 +29,6 @@ globalDynamics = \new Dynamics {
     s4 % this doesnt work MAYBE NOW??? \tempo 4=45
     s4*5
     \time 4/4
+    \set Score.tempoHideNote = ##f
+    s4 \tempo 4=60
 }
