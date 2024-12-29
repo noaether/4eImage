@@ -41,7 +41,8 @@ hornF = \relative c' {
   %\time 5/4
   f2 g4 a8( bes8 d4)
   %\time 4/4
-  f8( e8 g2) f4~f4 a4 bes4 c4
+  f8( e8 g2) f4~f4\< a4 bes4 c4
+  f4 e4 e8( d8)
 }
 
 hornFPart = \new Staff \with {
