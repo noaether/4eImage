@@ -20,8 +20,8 @@ globalDynamics = \new Dynamics {
     \tempo 4=56 s8
     \tempo 4=53 s8
     \tempo 4=51 s8
-    \tempo 4=49 s8.\stopTextSpan
-    \tempo 4=47 s16
+    \tempo 4=49 s8\stopTextSpan
+    \tempo 4=47 s8
 
   \mark \default %%%%% D %%%%%
     \time 5/4
