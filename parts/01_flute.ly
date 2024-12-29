@@ -45,7 +45,7 @@ flute = \relative c'' {
   bes'8( a8 g2.)
   a4(\< a4 bes4 c4)
   % 3/4
-  f4\!
+  f4\mp
 }
 
 flutePart = \new Staff \with {
