@@ -7,7 +7,7 @@ globalDynamics = \new Dynamics {
     s1*7 s4\startTextSpan s2 s4\stopTextSpan
 
   \mark \default
-    s4^\markup \bold \large \upright "a tempo"
+    s4 s4^\markup \bold \large \upright "a tempo" s2
     s1*9
 
   \mark \default
