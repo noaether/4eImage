@@ -33,7 +33,7 @@ flute = \relative c'' {
   f4\!\mf e2 d4 d2 c2)
   f2( e4 d4 e2 d2)
   c'2( bes4 a4
-  \after 1 \tempo \markup { "rit. "} a2
+  \after 1 \tempo "rit. " a2
   g2)
 
   %%%%% D %%%%%
