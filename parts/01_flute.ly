@@ -1,8 +1,6 @@
 \include "00_dynamics.ly"
 
 flute = \relative c'' {
-  \textLengthOn
-
   \time 4/4
   \tempo " = 60"
   \key f \major
@@ -47,7 +45,8 @@ flute = \relative c'' {
   bes'8( a8 g2.)
   a4(\< a4 bes4 c4)
   % 3/4
-  f4\mp
+  f4--\mp e4-- e8( d8)
+  a4-- g4-- a4--
 }
 
 flutePart = \new Staff \with {
