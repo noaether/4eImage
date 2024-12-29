@@ -1,4 +1,4 @@
-atempo = \markup \bold \large "a tempo"
+atempo = \markup \bold \large \upright "a tempo"
 
 globalDynamics = \new Dynamics {
   \override TextSpanner.bound-details.left.text = \markup \bold \large \upright "rit. "
