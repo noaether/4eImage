@@ -19,6 +19,7 @@ globalDynamics = \new Dynamics {
 
   \mark \default %%%%% D %%%%%
     \time 5/4
+    \set Score.tempoHideNote = ##t
     \tempo 4=45
     s4 % this doesnt work MAYBE NOW??? \tempo 4=45
     s4*5
