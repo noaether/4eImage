@@ -41,10 +41,6 @@ flute = \relative c'' {
   \time 4/4
 }
 
-fluteDynamicsPart = \new Dynamics {
-
-}
-
 flutePart = \new Staff \with {
   instrumentName = "Flute"
   shortInstrumentName = "Fl."
@@ -64,7 +60,6 @@ flutePart = \new Staff \with {
   \score {
     <<
       \flutePart
-      \fluteDynamicsPart
     >>
     \layout {
       indent = 25
