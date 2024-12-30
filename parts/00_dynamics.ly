@@ -38,7 +38,7 @@ globalDynamics = \new Dynamics {
     s2.\startTextSpan
     s2.*2
     s2 s8\stopTextSpan s8\tempo 4=90
-    \key c \major s2.
+    s2.
 
   %%%%% E %%%%%
   \mark \default
