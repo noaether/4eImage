@@ -42,6 +42,7 @@ euphonium = \relative c {
   \repeat unfold 12 { a8-- }
   \repeat unfold 12 { c8-- }
   \repeat unfold 12 { d8-- }
+  \key f \major
 }
 
 euphoniumPart = \new Staff \with {
