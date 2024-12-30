@@ -41,13 +41,15 @@ hornF = \relative c' {
   %\time 5/4
   f2 g4 a8( bes8 d4)
   %\time 4/4
-  f8( e8 g2) f4~f4\< a4 bes4 c4
-  f4\mf^"bring out" e4 e8( d8)
-  c8\<( bes8) bes4-- bes8( g8)
-  a2.--( c2\!)
-  a8--( g8-- d'2)
-  c8--( bes8-- e2)
-  bes8--( a8-- d2--) c4--
+  \transpose c f {
+    f8( e8 g2) f4~f4\< a4 bes4 c4
+    f4\mf^"bring out" e4 e8( d8)
+    c8\<( bes8) bes4-- bes8( g8)
+    a2.--( c2\!)
+    a8--( g8-- d'2)
+    c8--( bes8-- e2)
+    bes8--( a8-- d2--) c4--
+  }
 }
 
 hornFPart = \new Staff \with {
