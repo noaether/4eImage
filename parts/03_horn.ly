@@ -55,7 +55,7 @@ hornF = \relative c' {
   a2.\mf
   c4.~c4-. a8--~a16 d2~d8. a2.\>
   \key f \major
-  f8\p
+  f'8\p
 }
 
 hornFPart = \new Staff \with {
