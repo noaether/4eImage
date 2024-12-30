@@ -47,6 +47,8 @@ flute = \relative c'' {
   % 3/4
   f4--\mp e4-- e8( d8)
   a4-- g4-- a4--
+  r4 r4 a8( bes8)
+  c8( a) c8( a) c8( d)
 }
 
 flutePart = \new Staff \with {
