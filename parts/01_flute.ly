@@ -49,8 +49,8 @@ flute = \relative c'' {
   a4-- g4-- a4--
   r4 r4 a8( bes8)
   c8[( a)] c8[( a)] c8[( d)]
-  % ??
-  \repeat unfold 6 { c8-- }
+
+  \repeat unfold 8 { r1 }
 }
 
 flutePart = \new Staff \with {
