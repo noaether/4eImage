@@ -44,4 +44,8 @@ globalDynamics = \new Dynamics {
   \mark \default
     \time 6/8
     \tempo 4.=60
+    s2.*8
+
+  %%%%% F %%%%%
+  \mark \default
 }
