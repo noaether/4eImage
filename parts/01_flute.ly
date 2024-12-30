@@ -50,7 +50,7 @@ flute = \relative c'' {
   r4 r4 a8( bes8)
   c8[( a)] c8[( a)] c8[( d)]
 
-  \after 8 \mf
+  \after \mf
   \repeat unfold 3 { c8--[ c8--] }
 }
 
