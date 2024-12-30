@@ -40,9 +40,9 @@ clarinet = \relative c'' {
   %\time 5/4
   d2 d2.
   %\time 4/4
-  e4( a4 c2) d1\<
+  e4( a4 c2) d2.\<
   %\time 3/4
-  bes--4\! a--4 a8( g8)
+  bes--4\mf a--4 a8( g8)
 }
 
 clarinetPart = \new Staff \with {
