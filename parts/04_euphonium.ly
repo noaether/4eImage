@@ -43,7 +43,7 @@ euphonium = \relative c {
   \repeat unfold 12 { c8-- }
   \repeat unfold 12 { d8-- }
   \key f \major
-  bes2.\<~bes2. c8--\mf\> \repeat unfold 5 { c8-- } a8-- \repeat unfold 5 { a8-- } d2.
+  bes2.\<~bes2. c8--\mf\> \repeat unfold 5 { c8-- } a8-- \repeat unfold 5 { a8-- } d2.\p
 }
 
 euphoniumPart = \new Staff \with {
