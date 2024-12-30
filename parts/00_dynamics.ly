@@ -37,6 +37,7 @@ globalDynamics = \new Dynamics {
     s2.\startTextSpan
     s2.*2
     s2.\stopTextSpan
+    s2.
 
   %%%%% E %%%%%
   \mark \default
