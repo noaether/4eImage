@@ -16,7 +16,7 @@ euphonium = \relative c {
   d,2\pp\<( f2 c1)\>
   f2\!\p\<( d2 c2\!\mf\> a2) a1\!\mp
 
-  r4 a'8(\<\p bes a g f a
+  r4 a'8(\<\p bes a g f g
   \key ees \major
   aes1\!\mp^"luminoso")
 
