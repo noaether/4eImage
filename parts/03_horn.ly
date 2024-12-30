@@ -47,7 +47,7 @@ hornF = \relative c' {
   d2.--( f2\!)
   d8--( c8-- g'2)\mf\<
   f8--( e8-- a2)
-  e8--( d8-- g2--)\> f4--
+  e8--( d8-- \key c \major g2--)\> f4--
   f8\p
 }
 
