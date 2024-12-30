@@ -47,8 +47,8 @@ clarinet = \relative c'' {
   d2-- a8( bes8)
   f'4-- f8--([ e--] d--[ c--])
   c--[\mf\< c--] d--[ c--] d--[ c--]
-  c--[ d--] e--[ f--] e--[ d--]
-  g,--[\> a--] bes--[ c--] d--[ e--] c2.\mf
+  c--[ d--] e--[ f--] e--[ d--]\key c \major
+  g,--[\> a--] b--[ c--] d--[ e--] c2.\mf
 }
 
 clarinetPart = \new Staff \with {
