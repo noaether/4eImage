@@ -51,7 +51,10 @@ flute = \relative c'' {
   c8[( a)] c8[( a)] c8[( d)]
 
   c8--[\<\mf c8--] c8--[ c8--] c8--[ c8--]
-  f4\!
+  f8--[ e8--] d8--[ c8--] bes8--[ a8--]
+  g8--[ a8--] bes8--[ c8--] bes8--[ a8--]
+
+
 }
 
 flutePart = \new Staff \with {
