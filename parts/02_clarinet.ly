@@ -48,6 +48,7 @@ clarinet = \relative c'' {
   f'4-- f8--([ e--] d--[ c--])
   c--[ c--] d--[ c--] d--[ c--]
   c--[ d--] e--[ f--] e--[ d--]
+  g--[ a--] bes--[ c--] d--[ e--]
 }
 
 clarinetPart = \new Staff \with {
