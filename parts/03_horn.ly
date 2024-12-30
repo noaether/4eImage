@@ -53,7 +53,9 @@ hornF = \relative c' {
   \repeat unfold 6 { e8-- }
   e8\< e e d c b
   a2.\mf
-  c4.~c4-. a8--~a16 d2~d8. a2.
+  c4.~c4-. a8--~a16 d2~d8. a2.\>
+  \key f \major
+  f8
 }
 
 hornFPart = \new Staff \with {
