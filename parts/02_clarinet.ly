@@ -43,6 +43,7 @@ clarinet = \relative c'' {
   e4( a4 c2) d1\<
   %\time 3/4
   bes4--\mf a4-- a8( g8)
+  a4-- c4-- a8( bes8)
 }
 
 clarinetPart = \new Staff \with {
