@@ -45,7 +45,7 @@ hornF = \relative c' {
   bes4\mf^"bring out" a4 a8( g8)
   f8\<( e8) e4-- e8( c8)
   d2.--( f2\!)
-  d8--( g8-- g'2)
+  d8--( c8-- g2)
   f8--( b8-- e2)
   b8--( a8-- d2--) c4--
 }
