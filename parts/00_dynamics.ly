@@ -32,7 +32,12 @@ globalDynamics = \new Dynamics {
     s4 \tempo 4=60 s4^\atempo s2
     s1
     \time 3/4
-    s2.*7
-    \mark \default
+    s2.*2
+      \override TextSpanner.bound-details.left.text = \markup \bold \large \upright "accel. "
+    s2.\startTextSpan
+    s2.*3\stopTextSpan
+
+  %%%%% E %%%%%
+  \mark \default
     \time 6/8
 }
