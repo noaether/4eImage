@@ -37,8 +37,8 @@ euphonium = \relative c {
   c4 a2 bes4
   a2\< bes4 c4
   %\time 3/4
-  f,2.--\mf\< a2-- f4 bes2.-- c2.-- a2.--\f\< bes2.-- \key c \major c2.--\> c8--\p c8--
-  \repeat unfold 10 { c8-- }
+  f,2.--\mf\< a2-- f4 bes2.-- c2.-- a2.--\f\< bes2.-- \key c \major c2.--\> c8--\p
+  \repeat unfold 11 { c8-- }
 }
 
 euphoniumPart = \new Staff \with {
