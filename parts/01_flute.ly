@@ -48,9 +48,9 @@ flute = \relative c'' {
   f4--\mp e4-- e8( d8)
   a4-- g4-- a4--
   r4 r4 a8( bes8)
-  c8[( a)] c8[( a)] c8[( \after 8 { \mf\< } d)]
+  c8[( a)] c8[( a)] c8[( d)]
 
-  \repeat unfold 3 { c8--[ c8--] }
+  c8--[\<\mf c8--] c8--[ c8--] c8--[ c8--]
   f4\!
 }
 
