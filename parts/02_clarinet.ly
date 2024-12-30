@@ -40,15 +40,7 @@ clarinet = \relative c'' {
   %\time 5/4
   d2 d2.
   %\time 4/4
-  \transpose c bes' {
-  fis4( b4 d2) e1\<
-  %\time 3/4
-  c4--\mf b4-- b8( a8)
-  b4-- d4-- b8( c8)
-  e2-- b8( c8)
-  g'4-- g8--([ fis8--] e8--[ d8--])
-  d8--[ d--] e--[ d--] e--[ d--]
-  }
+
 
 }
 
