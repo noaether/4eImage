@@ -33,5 +33,6 @@ globalDynamics = \new Dynamics {
     s1
     \time 3/4
     s1*7
+    \mark \default
     \time 6/8
 }
