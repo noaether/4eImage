@@ -30,8 +30,9 @@ globalDynamics = \new Dynamics {
     s16 s8
     s4*4
     \time 4/4
-    \once \set Score.tempoHideNote = ##t
+    \set Score.tempoHideNote = ##t
     s4 \tempo 4=60 s4^\atempo s2
+    \set Score.tempoHideNote = ##f
     s1
     \time 3/4
     s2.*2
