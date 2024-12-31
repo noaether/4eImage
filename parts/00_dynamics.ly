@@ -38,8 +38,10 @@ globalDynamics = \new Dynamics {
     s2.*2
       \override TextSpanner.bound-details.left.text = \markup \bold \large \upright "accel. "
     s2.\startTextSpan
-    s2.*2
-    s2 s8\stopTextSpan s8\tempo 4=90
+    s4 s4 s4
+    s4 s4 s4
+    s4 s4 s4
+    s4 s4 s8 s8\stopTextSpan \tempo 4=90
     s2.
 
   %%%%% E %%%%%
