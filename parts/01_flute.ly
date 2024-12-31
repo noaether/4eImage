@@ -62,7 +62,8 @@ flute = \relative c'' {
 
   %%%%% G %%%%%
   a8\pp\< bes a bes a bes bes\mf\> a bes a bes a
-  a8 c a c a c d bes d bes d bes
+  a\pp\< c a c a c d\mf\> bes d bes d bes
+  e8\p
 }
 
 flutePart = \new Staff \with {
