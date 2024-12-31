@@ -58,7 +58,11 @@ flute = \relative c'' {
   \repeat unfold 12 { c8-- }
   f,8 \repeat unfold 23 { f8-- }
   \key f \major
-  bes2.\<~bes2. a2.\mf\>~a2. d8--\p\< \repeat unfold 11 { d8-- } c8--\mf\> \repeat unfold 11 { c8-- } a8\pp
+  bes2.\<~bes2. a2.\mf\>~a2. d8--\p\< \repeat unfold 11 { d8-- } c8--\mf\> \repeat unfold 11 { c8-- } 
+
+  %%%%% G %%%%%
+  a8\pp\< bes a bes a bes bes\mf\> a bes a bes a
+  a8 c a c a c d bes d bes d bes
 }
 
 flutePart = \new Staff \with {
