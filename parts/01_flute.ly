@@ -65,7 +65,7 @@ flute = \relative c'' {
   a\pp\< c a c a c d\mf\> bes d bes d bes
   e8\p([ bes]) e([ bes]) e([ bes])
   e8([ f]) e([ f]) e([ f])
-  a([ d,]) a([ d]) a([ d])
+  a([ d,]) a'([ d,]) a'([ d,])
 }
 
 flutePart = \new Staff \with {
