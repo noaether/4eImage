@@ -26,7 +26,8 @@ globalDynamics = \new Dynamics {
 
   \mark \default %%%%% D %%%%%
     \time 5/4
-    s4\tempo 4=45
+    s16\tempo 4=45
+    s16 s8
     s4*4
     \time 4/4
     \set Score.tempoHideNote = ##f
