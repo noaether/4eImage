@@ -57,4 +57,9 @@ globalDynamics = \new Dynamics {
 
   %%%%% G %%%%%
   \mark \default
+    s2.*4
+  
+  %%%%% H %%%%%
+  \mark \default
+    \time 3/4
 }
