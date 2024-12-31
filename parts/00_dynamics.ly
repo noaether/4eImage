@@ -40,7 +40,6 @@ globalDynamics = \new Dynamics {
     s2.\startTextSpan
     s4 s4 s4
     s4 s4 s4
-    s4 s4 s4
     s4 s4 s8 s8\stopTextSpan \tempo 4=90
     s2.
 
