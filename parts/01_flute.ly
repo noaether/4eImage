@@ -65,7 +65,7 @@ flute = \relative c'' {
   a\pp\< c a c a c d\mf\> bes d bes d bes
   e8\p([ bes]) e([ bes]) e([ bes])
   e8([ f]) e([ f]) e([ f])
-  \repeat unfold 3 { \relative c'' {a([ d,])} }
+  \repeat unfold 3 { \relative c''' {a([ d,])} }
   \repeat unfold 3 { f([ g]) }
 }
 
