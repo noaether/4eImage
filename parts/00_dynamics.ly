@@ -53,4 +53,8 @@ globalDynamics = \new Dynamics {
 
   %%%%% F %%%%%
   \mark \default
+    s2.*8
+
+  %%%%% G %%%%%
+  \mark \default
 }
