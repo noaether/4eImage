@@ -1,0 +1,23 @@
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    name: Compile to PDF
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - name: get lilypond binaries
+        run: wget https://gitlab.com/lilypond/lilypond/-/releases/v2.24.4/downloads/lilypond-2.24.4-linux-x86_64.tar.gz
+      - name: untar
+        run: tar -xvf lilypond-2.24.4-linux-x86_64.tar.gz
+      - name: compile
+        run: lilypond-2.24.4/bin/lilypond --include=parts/ --pdf main.ly
+      - uses: actions/upload-artifact@v4
+        with:
+          name: main.pdf
+          path: main.ly
