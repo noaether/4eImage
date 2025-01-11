@@ -94,6 +94,6 @@ globalDynamics = \new Dynamics {
     s2.*2
 
   \mark \default
-    \tempo 4=60
+    \tempo 4=60 s2.\tempoPrimo
 
 }
