@@ -89,6 +89,6 @@ globalDynamics = \new Dynamics {
     s4\tempo 4=138
     s4\tempo 4=140
     s4\tempo 4=142
-    s4\set Score.tempoHideNote = ##f
-\tempo 4=144
+    s4\tempo 4=144\set Score.tempoHideNote = ##f
+
 }
