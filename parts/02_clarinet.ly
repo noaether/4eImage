@@ -55,7 +55,14 @@ clarinet = \relative c'' {
   f,8\p\< \repeat unfold 11 { f8-- } f8--\mf\> \repeat unfold 11 { f8-- } 
   f8\pp\< a f a f a a\mf\> f a f a f
   f8\pp\< a f a f a a\mf\> f a f a f
-  bes(\p\< d) bes( d) bes( d) bes
+  bes([\p d]) bes([ d]) bes([ d])
+  d([ bes]) d([ bes]) d([ bes])
+  bes([ f]) bes([ f]) bes([ f])
+  d([ bes]) d([ bes]) d([ bes])
+  d([ f]) d([ f]) d([ f])
+  f([ d]) f([ d]) f([ d])
+  g([ d]) g([ d]) g([ d])
+  bes([ f]) bes'([ f]) bes([ f])
 }
 
 clarinetPart = \new Staff \with {
