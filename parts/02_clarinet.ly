@@ -57,7 +57,7 @@ clarinet = \relative c'' {
   f8\pp\< a f a f a a\mf\> f a f a f
   bes([\p d]) bes([ d]) bes([ d])
   d([ bes]) d([ bes]) d([ bes])
-  \repeat unfold 3 { \relative c' bes'([ f'])}
+  \repeat unfold 3 { bes'([ f'])}
   \repeat unfold 3 { d([ bes]) }
   \repeat unfold 3 { d([ f])}
   \repeat unfold 3 { f([ d]) }
