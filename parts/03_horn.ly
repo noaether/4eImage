@@ -61,7 +61,7 @@ hornF = \relative c' {
   d8\pp\< f d f d f f\mf\> d f d f d
 
   %%%%% H %%%%%
-  d8\pp
+  d8\pp f \repeat unfold 2 { d8 f }
 }
 
 hornFPart = \new Staff \with {
