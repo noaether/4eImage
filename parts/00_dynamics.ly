@@ -1,4 +1,5 @@
 atempo = \markup \bold \large \upright "a tempo"
+tempoPrimo = \markup \bold \large \upright "tempo primo"
 
 globalDynamics = \new Dynamics {
   \override TextSpanner.bound-details.left.text = \markup \bold \large \upright "rit. "
@@ -90,5 +91,9 @@ globalDynamics = \new Dynamics {
     s4\tempo 4=140
     s4\tempo 4=142
     s4\tempo 4=144\set Score.tempoHideNote = ##f
+    s2.*2
+
+  \mark \default
+    \tempo 4=60
 
 }
