@@ -58,10 +58,10 @@ clarinet = \relative c'' {
   bes([\p d]) bes([ d]) bes([ d])
   d([ bes]) d([ bes]) d([ bes])
   \repeat unfold 3 { \relative c' bes'([ f'])}
-  d([ bes]) d([ bes]) d([ bes])
-  d([ f]) d([ f]) d([ f])
-  f([ d]) f([ d]) f([ d])
-  g([ d]) g([ d]) g([ d])
+  \repeat unfold 3 { d([ bes]) }
+  \repeat unfold 3 { d([ f])}
+  \repeat unfold 3 { f([ d]) }
+  \repeat unfold 3 { g([ d]) }
   bes([ f]) bes'([ f]) bes([ f])
 }
 
