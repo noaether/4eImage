@@ -49,7 +49,7 @@ globalDynamics = \new Dynamics {
   \mark \default
     \time 6/8
     \tempo 4.=60
-    s2.*8
+    s2.*8^\markup { \concat { \char ##x1d15f \char ##x1d16d "=" "60" } }
 
   %%%%% F %%%%%
   \mark \default
@@ -57,9 +57,14 @@ globalDynamics = \new Dynamics {
 
   %%%%% G %%%%%
   \mark \default
-    s2.*4
+    s4.\tempo 4=93
+    s4.\tempo 4=95
+    s4.\tempo 4=98
+    
   
   %%%%% H %%%%%
   \mark \default
+    \tempo 4=120
     \time 3/4
+
 }
