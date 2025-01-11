@@ -58,11 +58,17 @@ globalDynamics = \new Dynamics {
 
   %%%%% G %%%%%
   \mark \default
-    s4.\tempo 4=93
-    s4.\tempo 4=95
-    s4.\tempo 4=98
+    s4*2\tempo 4=93
+    s4\tempo 4=95 
+    s4\tempo 4=98
+    s4\tempo 4=101
+    s4\tempo 4=104
+    s4\tempo 4=106
+    s4\tempo 4=109
+    s4\tempo 4=112
+    s4\tempo 4=114
+    s4\tempo 4=117
 
-  
   %%%%% H %%%%%
   \mark \default
     \tempo 4=120
