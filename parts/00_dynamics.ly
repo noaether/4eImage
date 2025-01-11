@@ -44,6 +44,7 @@ globalDynamics = \new Dynamics {
     s4\tempo 4=69 s4\tempo 4=70 s4\tempo 4=72
     s4\tempo 4=73 s4\tempo 4=76 s8\tempo 4=79 s8\stopTextSpan \tempo 4=90
     s2.
+    \set Score.tempoHideNote = ##f
 
   %%%%% E %%%%%
   \mark \default
@@ -60,7 +61,7 @@ globalDynamics = \new Dynamics {
     s4.\tempo 4=93
     s4.\tempo 4=95
     s4.\tempo 4=98
-    
+
   
   %%%%% H %%%%%
   \mark \default
