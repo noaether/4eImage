@@ -19,5 +19,5 @@ jobs:
         run: lilypond-2.24.4/bin/lilypond --include=parts/ --pdf main.ly
       - uses: actions/upload-artifact@v4
         with:
-          name: main.pdf
-          path: main.ly
+          name: Output PDF
+          path: "**/*.pdf"
