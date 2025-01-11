@@ -61,7 +61,9 @@ hornF = \relative c' {
   d8\pp\< f d f d f f\mf\> d f d f d
 
   %%%%% H %%%%%
-  d8\pp f \repeat unfold 2 { d8[( f)] }
+  d8[(\pp\< f)] \repeat unfold 2 { d8[( f)] }
+  \repeat unfold 3 { f[( a)] }
+  d2. e f g a bes
 }
 
 hornFPart = \new Staff \with {
