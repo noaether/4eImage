@@ -57,6 +57,11 @@ hornF = \relative c' {
   \key f \major
   f'8\p\< \repeat unfold 11 { f8-- } f8--\mf\> \repeat unfold 11 { f8-- } 
   bes,2.\mp bes8(-> d4~d4) c16( bes16 a2.\f^"with timbre"~a2.)
+  d8\pp\< f d f d f f\mf\> d f d f d
+  d8\pp\< f d f d f f\mf\> d f d f d
+
+  %%%%% H %%%%%
+  d8\pp
 }
 
 hornFPart = \new Staff \with {
