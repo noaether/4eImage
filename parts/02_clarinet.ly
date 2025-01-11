@@ -52,7 +52,8 @@ clarinet = \relative c'' {
   f8\p \repeat unfold 23 { f8-- }
   \key f \major
   d'8--\< \repeat unfold 11 { d8-- } c8--\mf\> \repeat unfold 11 { c8-- } 
-  f,8\p\< \repeat unfold 11 { f8-- } f8--\mf\> \repeat unfold 11 { f8-- } f8\pp
+  f,8\p\< \repeat unfold 11 { f8-- } f8--\mf\> \repeat unfold 11 { f8-- } 
+  f8\pp\< a f a f a a\mf\> f a f a f\pp
 }
 
 clarinetPart = \new Staff \with {
