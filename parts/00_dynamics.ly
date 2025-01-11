@@ -94,7 +94,8 @@ globalDynamics = \new Dynamics {
     s2.*2
 
   \mark \default
-    \time 4=4
+    \time 4/4
+    \set Score.tempoHideNote = ##t
     \tempo 4=60 s2.^\tempoPrimo
 
 }
