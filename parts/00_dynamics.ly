@@ -60,7 +60,7 @@ globalDynamics = \new Dynamics {
   \mark \default
     \set Score.tempoHideNote = ##t
     s4*2\tempo 4=93
-    s4\tempo 4=95 
+    s4\tempo 4=95
     s4\tempo 4=98
     s4\tempo 4=101
     s4\tempo 4=104
@@ -75,5 +75,4 @@ globalDynamics = \new Dynamics {
   \mark \default
     \tempo 4=120
     \time 3/4
-
 }
