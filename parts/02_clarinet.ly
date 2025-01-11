@@ -62,7 +62,7 @@ clarinet = \relative c'' {
   \repeat unfold 3 { d([ f])}
   \repeat unfold 3 { f([ d]) }
   \repeat unfold 3 { g([ d]) }
-  bes([ f]) bes'([ f]) bes([ f])
+  bes([ f']) bes'([ f]) bes([ f])
 }
 
 clarinetPart = \new Staff \with {
