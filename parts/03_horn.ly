@@ -44,7 +44,7 @@ hornF = \relative c' {
   f2 g4 a8( bes8 d4)
   %\time 4/4
   bes8( a8 c2) bes4~bes4\< d4 e4 f4
-  bes4\!\markup { \dynamic mf \italic { bring out } } a4 a8( g8)
+  bes4\!_\markup { \dynamic mf \italic { bring out } } a4 a8( g8)
   f8( e8\<) e4-- e8( c8)
   d2.--( f2\!)
   d8--( c8-- g'2)\mf\<
