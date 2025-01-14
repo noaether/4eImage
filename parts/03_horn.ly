@@ -24,7 +24,7 @@ hornF = \relative c' {
   g1\<( ~ g2\!\pp a4) r4
 
   %%%%% B %%%%%
-  a2.\p^"espressivo"( g4 g2 f2)
+  a2.-\markup { \dynamic p \italic { espressivo } } ( g4 g2 f2)
   g2. (f4 f2 e2)
   g2. (f4 f2 e2\<)
 
