@@ -70,6 +70,7 @@ flute = \relative c'' {
   f([ a]) f([ a]) f([ g])
   \repeat unfold 3 { a([ bes]) }
   \repeat unfold 3 { a([ c]) }
+  a([ d]) a([ d]) a([ d])~d2.( c4 c2 bes2)
 }
 
 flutePart = \new Staff \with {
