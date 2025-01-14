@@ -1,5 +1,8 @@
 \include "00_dynamics.ly"
 
+#(define (dynEx dynamic expression)
+   #{ \markup { \dynamic #dynamic \italic { #expression } } #})
+
 soloEspressivo = \markup { \dynamic p \italic { solo espressivo } }
 
 hornF = \relative c' {
@@ -9,7 +12,7 @@ hornF = \relative c' {
 
   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
 
-  a2.-\soloEspressivo ( g4 g2 f2)
+  a2.-\dynEx #"p" #"dolce" ( g4 g2 f2)
   a2.( g4 g2 f2)
   g2.( f4 f2 e2)
   g2.( f4 e2.) r4
