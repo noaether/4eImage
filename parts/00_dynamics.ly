@@ -1,4 +1,4 @@
-#(define (dynamic-expression dynamic expression)
+#(define (dyn-ex dynamic expression)
    #{ \markup { \dynamic #dynamic \italic { #expression } } #})
 
 atempo = \markup \bold \large \upright "a tempo"
