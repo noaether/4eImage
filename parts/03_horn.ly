@@ -66,7 +66,7 @@ hornF = \relative c' {
   d8[(\pp\< f)] \repeat unfold 2 { d8[( f)] }
   \repeat unfold 3 { f[( a)] }
   d,2. e f g a bes\f
-  d,1\pp(-\markup { \italic subito \dynamic pp } d d2.)\!
+  d,1\>(-\markup { \italic subito \dynamic pp } d d2.)\!
 }
 
 hornFPart = \new Staff \with {
