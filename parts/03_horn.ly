@@ -1,6 +1,6 @@
 \include "00_dynamics.ly"
 
-soloEspressivo = \markup { \italic solo espressivo \dynamic p }
+soloEspressivo = \markup { \italic { solo espressivo } \dynamic p }
 
 hornF = \relative c' {
   \time 4/4
