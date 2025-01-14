@@ -1,6 +1,13 @@
 \include "00_dynamics.ly"
 
-soloEspressivo = \markup { \dynamic p \italic { solo espressivo } }
+semppM =
+#(make-dynamic-script
+  (markup #:line
+          (#:with-dimensions '(0 . 0) '(0 . 0)
+                             #:right-align
+                             #:normal-text
+                             #:italic "subito"
+                             #:dynamic "pp")))
 
 hornF = \relative c' {
   \time 4/4
