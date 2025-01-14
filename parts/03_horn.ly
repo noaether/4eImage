@@ -1,6 +1,6 @@
 \include "00_dynamics.ly"
 
-subppM =
+subpp =
 #(make-dynamic-script
   (markup #:line
           (#:with-dimensions '(0 . 0) '(0 . 0)
