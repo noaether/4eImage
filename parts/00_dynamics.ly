@@ -1,3 +1,6 @@
+#(define (dynamic-expression dynamic expression)
+   #{ \markup { \dynamic #dynamic \italic { #expression } } #})
+
 atempo = \markup \bold \large \upright "a tempo"
 tempoPrimo = \markup \bold \large \upright "tempo primo"
 
@@ -51,7 +54,7 @@ globalDynamics = \new Dynamics {
   \mark \default
     \time 6/8
     \tempo 4.=60
-    s2.*8^\markup { \concat { \char ##x1d15f \char ##x1d16d "=" "60" } }
+    s2.*8
 
   %%%%% F %%%%%
   \mark \default
