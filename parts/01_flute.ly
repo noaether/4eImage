@@ -67,6 +67,9 @@ flute = \relative c'' {
   e8([ f]) e([ f]) e([ f])
   \repeat unfold 3 { \relative c''' {a([ d,])} }
   \repeat unfold 3 { f([ g]) }
+  f([ a]) f([ a]) f([ g])
+  \repeat unfold 3 { a([ bes]) }
+  \repeat unfold 3 { a([ c]) }
 }
 
 flutePart = \new Staff \with {
