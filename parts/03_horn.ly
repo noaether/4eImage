@@ -1,5 +1,7 @@
 \include "00_dynamics.ly"
 
+soloEspressivo = \markup { \italic solo espressivo \dynamic p }
+
 hornF = \relative c' {
   \time 4/4
   \tempo " = 60"
@@ -7,7 +9,7 @@ hornF = \relative c' {
 
   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
 
-  a2.\p^"solo espressivo"( g4 g2 f2)
+  a2.-\soloEspressivo ( g4 g2 f2)
   a2.( g4 g2 f2)
   g2.( f4 f2 e2)
   g2.( f4 e2.) r4
